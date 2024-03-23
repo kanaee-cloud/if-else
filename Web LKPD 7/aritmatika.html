@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/aritmatika.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="title">
+            <h1>Mine-Count</h1>
+        </div>
+        <fieldset>
+            <div class="content">
+                <div class="inputClass">
+                    <p>Please Choose Operator</p>
+                    <select id="operasi">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">x</option>
+                        <option value="/">/</option>
+                        <option value="%">%</option>
+                    </select>
+                    <button onclick="handleButton()">Submit</button>
+                </div>
+            </div>
+        </fieldset>
+        <div id="hasil"></div>          
+    </section>
+    <script src="js/aritmatika.js"></script>
+</body>
+
+</html>
